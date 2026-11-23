@@ -1,0 +1,103 @@
+body {
+    background: #eeeeee;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 95%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: white;
+}
+
+/* HEADER */
+
+header {
+    background: #244b35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* THREE COLUMNS */
+
+.layout {
+    overflow: auto;
+}
+
+.left {
+    width: 20%;
+    float: left;
+    padding: 2%;
+    box-sizing: border-box;
+    background: #e8f0e9;
+    min-height: 500px;
+}
+
+main {
+    width: 55%;
+    float: left;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.right {
+    width: 25%;
+    float: left;
+    padding: 2%;
+    box-sizing: border-box;
+    background: #e8f0e9;
+    min-height: 500px;
+}
+
+/* IMAGE */
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+/* HEADINGS */
+
+h2 {
+    color: #244b35;
+}
+
+/* LINKS */
+
+a {
+    color: #244b35;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    background: #244b35;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 700px) {
+
+    .left,
+    main,
+    .right {
+        width: 100%;
+        float: none;
+    }
+
+}
